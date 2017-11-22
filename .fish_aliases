@@ -1,0 +1,20 @@
+alias updates "fish ~/fishScripts/update.fish"
+
+alias ga "git add -A"
+alias gap "git add -p"
+alias gc "git commit -m"
+alias gs "git status"
+alias gp "git push"
+alias gac "ga ;and gc"
+alias gch "git checkout"
+
+alias :q "exit"
+alias cl "clear"
+alias rmd "rm -rf"
+alias vif "vi ~/.fish_aliases"
+alias bindings "cat ~/.fish_aliases"
+
+alias mvnc "mvn clean"
+alias mvnp "mvn package"
+alias mvncp "mvn clean; mvn package"
+alias mvnct "mvn clean; mvn test"
